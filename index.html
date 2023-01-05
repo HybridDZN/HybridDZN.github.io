@@ -1,18 +1,521 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <title>xero site</title>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Synergy</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
+<!-- body -->
 
-<body>
-    <h1>xero.home</h1>
-    <p1>find me on <a href="http://github.com/HybridDZN">github</a>
-        <p1>
-
-</body>
-
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    </div>
+    <!-- end loader -->
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="searvices.html">Searvices</a>
+        <a href="testimonial.html">Testimonial</a>
+        <a href="works.html">Works</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="head-top">
+            <div class="container-fluid">
+                <div class="row d_flex">
+                    <div class="col-sm-3">
+                        <div class="logo">
+                            <a href="index.html">Synergy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start slider section -->
+    <div id="top_section" class=" banner_main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/top_img.png"
+                                                            alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Synergy: <br> Content Marketing</h1>
+                                                    <p>Attract and retain your target audience with the valuable,
+                                                        relevant, and consistent content created by our team of experts
+                                                        at Synergy Marketing Agency.</p>
+                                                    <!--<a class="read_more" href="Javascript:void(0)">Read More </a>-->
+                                                    <a class="read_more"
+                                                        href="https://docs.google.com/forms/d/e/1FAIpQLScWuilVZ0kCCkqIwCHEeaVmOLurcdCl_KrKBghMhtxjB8-dog/viewform?usp=sharing">Get
+                                                        A Quote </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/top_img.png"
+                                                            alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Synergy: <br> Social media marketing</h1>
+                                                    <p>Build brand awareness and connect with your target audience
+                                                        through targeted social media marketing campaigns with Synergy
+                                                        Marketing Agency.
+                                                    </p>
+                                                    <!--<a class="read_more" href="Javascript:void(0)">Read More </a>--><a
+                                                        class="read_more"
+                                                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-iiXgQhXeFpiNHz0RJuAPfzVKGl0Oz8y6-MYK3EuhHdyIkg/viewform?usp=sharing">Get
+                                                        A Quote </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/top_img.png"
+                                                            alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Synergy: <br> Email marketing</h1>
+                                                    <p>Keep your customers informed and engaged with targeted email
+                                                        marketing campaigns from Synergy Marketing Agency."
+                                                    </p>
+                                                    <!-- <a class="read_more" href="Javascript:void(0)">Read More </a> -->
+                                                    <a
+                                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfN9clhqmlJo2kNFPvCyTPjHOsjx-eCqwQPILJz6yznrtw7JA/viewform?usp=sharing">Get
+                                                        A Quote </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end slider section -->
+    <!-- wallet -->
+    <div class="wallet">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="images/wa1.svg" alt="#" /></i>
+                        <h3>EXPERT MARKETING SOLUTIONS</h3>
+                        <p>Our team of experienced professionals offers a range of marketing services to drive results
+                            for your business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="images/wa2.svg" alt="#" /></i>
+                        <h3>CUSTOMIZED MARKETING PLANS</h3>
+                        <p>We work with you to create a marketing plan that is tailored to your business's specific
+                            needs and goals.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="images/wa3.svg" alt="#" /></i>
+                        <h3>TRUSTED INDUSTRY EXPERTS</h3>
+                        <p>Our team has a wealth of experience in a variety of industries, making us a trusted resource
+                            for marketing solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="images/wa4.svg" alt="#" /></i>
+                        <h3>PROVEN RESULTS</h3>
+                        <p>See for yourself the success that our clients have achieved with our expert marketing
+                            services. <br></br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end wallet -->
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="titlepage text_align_left">
+                                    <h2>About Us</h2>
+                                </div>
+                                <div class="about_text">
+                                    <p>Welcome to Synergy Marketing Agency, where we specialize in helping businesses
+                                        achieve their marketing goals. Our team of experienced professionals is
+                                        dedicated to providing expert marketing solutions that drive results. With a
+                                        diverse range of expertise and a track record of success, we are confident in
+                                        our ability to help your business reach its full potential. Contact us today to
+                                        learn more about how we can help your business succeed.</p>
+                                    <!-- <a class="read_more" href="about.html">Read More</a> -->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img class="img_responsive" src="images/about2.png" alt="#" /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border_testi">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="titlepage text_align_center">
+                                    <h2>Testimonial</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d_flex">
+                            <div class="col-md-10 offset-md-1">
+                                <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#testimo" data-slide-to="1"></li>
+                                        <li data-target="#testimo" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/maurice.jpg" alt="#" /></i>
+                                                                <h3>Maurice Eliassen</h3>
+                                                                <span>Email Marketing</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>"I have been blown away by the results of my email
+                                                                    marketing campaign with Synergy Marketing Agency.
+                                                                    Not only did the team create visually appealing and
+                                                                    engaging emails, but they also helped me build and
+                                                                    segment my email list to target specific audiences.
+                                                                    The open and click-through rates have exceeded my
+                                                                    expectations, and I have already seen an increase in
+                                                                    website traffic and sales. I highly recommend
+                                                                    Synergy Marketing Agency for anyone looking to take
+                                                                    their email marketing to the next level."</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/josh.jpg" alt="#" /></i>
+                                                                <h3>Josh Haynes</h3>
+                                                                <span>Social Media Marketing</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>"I was hesitant to invest in social media marketing
+                                                                    for my business, but the team at Synergy Marketing
+                                                                    Agency convinced me to give it a try. I'm so glad I
+                                                                    did! They created a customized social media plan
+                                                                    that has already started driving results for my
+                                                                    business. The team is responsive, professional, and
+                                                                    constantly coming up with new ideas to keep my
+                                                                    social media presence fresh and engaging. I highly
+                                                                    recommend Synergy Marketing Agency to any business
+                                                                    looking to take their social media marketing to the
+                                                                    next level."</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/della.jpg" alt="#" /></i>
+                                                                <h3>Della Graves</h3>
+                                                                <span>Content Marketing</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>"I have been extremely impressed with the content
+                                                                    marketing services provided by Synergy Marketing
+                                                                    Agency. The team is professional, responsive, and
+                                                                    constantly coming up with creative ideas to keep my
+                                                                    content fresh and engaging. They have helped me
+                                                                    build a strong online presence and connect with my
+                                                                    target audience through valuable, relevant, and
+                                                                    consistent content. I have already seen an increase
+                                                                    in website traffic and sales, and I highly recommend
+                                                                    giving Synergy Marketing Agency a try if you want to
+                                                                    take your content marketing to the next level."</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonial -->
+    <!-- works -->
+    <div class="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center">
+                        <h2>How It Works</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="works_vedio">
+                        <figure><img class="img_responsive" src="images/work.png" alt="#"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- works -->
+    <!-- contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center">
+                        <h2>Request an email Back</h2>
+                    </div>
+                </div>
+                <div class=" col-md-10 offset-md-1">
+                    <form id="request" class="main_form">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="contactus" placeholder="Email" type="type" name="Email">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="contactus" placeholder="Phone number" type="type" name="Phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="send_btn">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="logo_bottom" href="index.html">SynergyMARKETING</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6" ">
+                    <div class=" Informa conta ">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li> <a href=" https://goo.gl/maps/5JtEnaGCHGq6eLH89"> <i class=" fa fa-map-marker "
+                        aria-hidden=" true "></i> Adelaide, Australia
+                        </a>
+                        </li>
+                        <!--<li> <a href=" Javascript:void(0) "><i class=" fa fa-phone " aria-hidden=" true "></i> Call +01
+                                
+                            </a>
+                        </li>-->
+                        <li> <a href=" Javascript:void(0) "> <i class=" fa fa-envelope " aria-hidden=" true "></i>
+                                acchackgod@gmail.com
+                            </a>
+                        </li>
+                        </ul>
+                        <ul>
+                            <li>We would love to
+                            </li>
+                            <li>hear from you and
+                            </li>
+                            <li>learn more about how
+                            </li>
+                            <li>Synergy Marketing Agency
+                            </li>
+                            <li>can help your business succeed.
+                            </li>
+                            <li>Please don't hesitate to get in touch with us.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 "">
+                        <div class=" Informa helpful">
+                    <h3>Information</h3>
+                    <ul>
+                        <li>Synergy Marketing Agency is
+                        </li>
+                        <li>a startup based in Adelaide, Australia
+                        </li>
+                        <li>that specializes in providing expert marketing
+                        </li>
+                        <li>solutions to businesses of all sizes.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6" ">
+                  <div class=" Informa ">
+                     <h3>Offices</h3>
+                     <ul>
+                        <li>                            
+                        </li>
+                        <li>With offices located in Adelaide's north and south,                       
+                        </li>
+                        <li>Synergy Marketing Agency is able to offer convenient                          
+                        </li>
+                        <li>on-site consultation to businesses in the area.                            
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class=" copyright text_align_center ">
+               <div class=" container ">
+                  <div class=" row ">
+                     <div class=" col-md-12 ">
+                        <p>© 2023 All Rights Reserved. Design by <a href=" https://github.com/HybridDZN "> HybridDZN</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src=" js/jquery.min.js "></script>
+      <script src=" js/bootstrap.bundle.min.js "></script>
+      <script src=" js/jquery-3.0.0.min.js "></script>
+      <script src=" js/custom.js "></script>
+   </body>
 </html>
