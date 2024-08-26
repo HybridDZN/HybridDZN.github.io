@@ -1,0 +1,41 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+ul.roster {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.roster li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #1F1F1F;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+ul.roster li:hover {
+    background-color: #333333;
+}
